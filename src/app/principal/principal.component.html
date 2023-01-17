@@ -1,0 +1,40 @@
+
+<header>
+<div class="listMenu">
+  <ul>
+  <li>
+    
+  <a href="#cardContainer"> <span>menu</span></a> 
+  <a href="#cardContainer"><span>Contacto</span></a>
+ 
+  </li>
+</ul>
+</div>
+</header>
+
+
+<section class="hero">
+  <p class="textoPrincipal">Coma rico sin salir de resi</p>
+</section>
+
+    <div class="cardContainer"  style="display:flex; flex-direction: row; gap: 30px; flex-wrap: wrap;">
+     
+   <div class="carta1" *ngFor="let i of arepas">
+        <div class="imagenCarta1">
+            
+        </div>
+        <a [routerLink]="['compo1/', i.nombre]"> 
+        <p>{{i.nombre}}</p>
+        
+          <p>{{i.descripcion}}</p>
+          <app-tarjeta [descripcion]="i.descripcion"></app-tarjeta>
+        </a>
+      </div>
+
+
+    </div>
+
+
+    <footer>
+
+    </footer>

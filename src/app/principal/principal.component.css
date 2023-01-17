@@ -1,0 +1,70 @@
+
+body{
+  
+    padding: 20px;
+}
+header {
+    background-color: rgba(255, 0, 0, 0.238);
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    text-decoration: none;    
+}
+li{list-style: none;display: flex;flex-direction: row;gap: 30px;padding: 10px;}
+
+a{
+    text-decoration: none;
+    font-weight:bolder ;
+}
+a :hover{
+    color: red;
+}
+
+.hero{
+    background-image: url("src/assets/hero.jpg");
+    height: 90vh;
+    max-width: 99vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.textoPrincipal{
+    display: inline;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 4em;
+}
+
+.cardContainer{
+    background-color: rgba(200, 255, 0, 0.271);
+    min-width: 90vw;
+    min-height: 70vh;
+    margin: auto;
+    margin-top: 10vh;
+    padding: 20px;
+ 
+}
+
+.carta1{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    max-height: 400px;
+    max-width: 300px;
+}
+.imagenCarta1{
+    background-image: url("https://alfabetajuega.com/hero/2022/08/Saturo-Gojo-ojos-infinitos.jpg?width=1200&aspect_ratio=16:9");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+}
+p{
+    text-align: center;
+}
+
+
